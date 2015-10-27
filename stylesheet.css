@@ -1,0 +1,19 @@
+div
+{
+    margin: -1px;
+    background-color: #C02942;
+    width: 25px;
+    height: 25px;
+}
+form
+{
+    display:inline-block;
+}
+table
+{
+    margin: 10px;
+}
+.selected
+{
+    background-color: #FFF000;
+}
