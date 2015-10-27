@@ -1,7 +1,7 @@
 div
 {
     margin: -1px;
-    background-color: #C02942;
+    background-color: #000FFF;
     width: 25px;
     height: 25px;
 }
@@ -15,5 +15,6 @@ table
 }
 .selected
 {
+    !important;
     background-color: #FFF000;
 }
