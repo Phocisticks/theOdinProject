@@ -1,9 +1,8 @@
-div
+.square
 {
     margin: -1px;
     background-color: #000FFF;
-    width: 25px;
-    height: 25px;
+    display: block;
 }
 form
 {
@@ -12,9 +11,43 @@ form
 table
 {
     margin: 10px;
+    background-color: #000;
 }
 .selected
 {
     !important;
     background-color: #FFF000;
+}
+.sidebar
+{
+    display: inline-block;
+    width:120px;
+    margin-top: 12px
+}
+table
+{
+    position: relative;
+    float: left;
+}
+.input
+{
+    width: 100%;
+}
+.options
+{
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.5s ease;
+    border:1px solid #000;
+    margin-top:10px;
+    padding: 10px;
+    text-align: center;
+}
+.choosen
+{
+    border:3px solid #000;
+}
+.active
+{
+    background-color:#C0C0C0;
 }
